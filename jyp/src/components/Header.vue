@@ -1,10 +1,10 @@
 <template>
   <header class="header">
-    <div class="logo">Portfolio</div>
+    <router-link to="/" class="logo">Portfolio</router-link>
     <nav class="nav">
-      <router-link to="/aboutme" class="nav-item">소개</router-link>
-      <router-link to="/projects" class="nav-item">프로젝트</router-link>
-      <router-link to="/contact" class="nav-item">연락하기</router-link>
+      <router-link to="/aboutme" class="nav-item">About me</router-link>
+      <router-link to="/projects" class="nav-item">Project</router-link>
+      <router-link to="/contact" class="nav-item">Contact</router-link>
     </nav>
   </header>
 </template>
@@ -20,25 +20,25 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   background-color: #1a1a1a;
   color: white;
 }
 
 .logo {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: bold;
 }
 
 .nav {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 
 .nav-item {
   color: white;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   transition: color 0.3s;
 }
 

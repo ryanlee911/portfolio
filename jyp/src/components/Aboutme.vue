@@ -4,7 +4,7 @@
       <h1>안녕하세요, 이정윤입니다</h1>
       <p>
         프론트엔드 개발자를 꿈꾸는 컴퓨터공학과 학생입니다.<br />
-        사람, 기술, 기획을 잇는 감각적인 인터페이스를 만들고 싶어요.
+        사람, 기술, 기획을 잇는 감각적인 인터페이스를 만들고자 합니다.
       </p>
     </section>
 
@@ -40,7 +40,7 @@ export default {
         { year: '2025', title: '~ing', details: '기획과 개발에 흥미를 느끼며 프론트엔드와 AI 프로젝트를 병행 중' },
         { year: '2025', title: '미래에셋 금융 AI 페스티벌 참가', details: 'HyperCLOVA를 활용한 주식 정보 에이전트 개발' },
         { year: '2023', title: '육군 병장 만기 전역', details: '가천대 총학생회 40대 선거운동본부 정책팀장' },
-        { year: '2021', title: '가천대학교 컴퓨터공학과 입학', details: '컴퓨터공학과 37대 학회 홍무팀' },
+        { year: '2021', title: '가천대학교 컴퓨터공학과 입학', details: '컴퓨터공학과 37대 학생회 총무팀원' },
       ],
       skills: ['Vue.js', 'React', 'HTML', 'CSS', 'JavaScript', 'TailwindCSS', 'GitHub'],
     };
