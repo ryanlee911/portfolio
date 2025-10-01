@@ -1,32 +1,38 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomePage from '@/components/Home.vue'
+import { createRouter, createWebHashHistory } from 'vue-router'
+import Home from '../components/Home.vue'  // components 폴더에서 Home.vue를 가져옴
+import Aboutme from '@/components/Aboutme.vue'
+import Projects from '../components/Projects.vue'  // 추가
+import Contact from '../components/Contact.vue'
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: HomePage
+    name: 'home',
+    component: Home
   },
+
   {
     path: '/projects',
-    name: 'Projects',
-    component: () => import(/* webpackChunkName: "projects" */ '../components/Projects.vue')
+    name: 'projects',
+    component: Projects
   },
+
   {
-    path: '/blog',
-    name: 'Blog',
-    component: () => import(/* webpackChunkName: "blog" */ '../components/Blog.vue')
+    path: '/aboutme',
+    name: 'aboutme',
+    component: Aboutme
   },
+
   {
     path: '/contact',
-    name: 'Contact',
-    component: () => import(/* webpackChunkName: "contact" */ '../components/Contact.vue')
+    name: 'contact',
+    component: Contact
   }
 ]
 
 const router = createRouter({
-  history: createWebHistory(),
+  history: createWebHashHistory(),
   routes
 })
 
-export default router 
+export default router

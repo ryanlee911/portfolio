@@ -3,32 +3,55 @@
     <h1>프로젝트</h1>
     <div class="projects-grid">
       <div class="project-card">
-        <h2>프로젝트 1</h2>
-        <p>프로젝트 설명이 들어갑니다. 이 프로젝트는 Vue.js를 사용하여 개발되었습니다.</p>
+        <h2>미래에셋 AI Festival</h2>
+        <p>
+          HyperCLOVA X API를 활용한 실시간 주식 정보 분석 AI 에이전트입니다.
+          한국 증권 시장의 고유 은어(‘바닥 찍었다’, ‘떡상 간다’)와 매매 패턴(골든크로스·데드크로스, RSI 과매수/과매도, 볼린저 밴드 접촉 등)을 집중적으로 학습한 파인튜닝 모델을 탑재하여 자연스러운 한국어 질의에 즉시 대응하며,
+          일반적인 숫자·차트 조회를 넘어 ‘투자 심리’와 ‘커뮤니티 트렌드’까지 반영한 에이전트입니다.
+        </p>
         <div class="tech-stack">
-          <span class="tech">Vue.js</span>
-          <span class="tech">JavaScript</span>
-          <span class="tech">CSS3</span>
+          <span class="tech">Python + FastAPI</span>
+          <span class="tech">LangGraph + LangChain</span>
+          <span class="tech">HyperCLOVA X</span>
         </div>
-        <a href="#" class="btn">자세히 보기</a>
+        <a
+          href="https://github.com/ryanlee911/fin-agent"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn"
+        >
+          자세히 보기
+        </a>
       </div>
+
       <div class="project-card">
-        <h2>프로젝트 2</h2>
-        <p>프로젝트 설명이 들어갑니다. 이 프로젝트는 React를 사용하여 개발되었습니다.</p>
+        <h2>INSIGHT BOX</h2>
+        <p>URL만 입력하면 자동으로 썸네일과 제목을 추출해 손쉽게 북마크를 생성합니다.
+        인상 깊은 웹 콘텐츠(기사, 영상, SNS 피드 등)를 저장하고, AI 태그를 생성하여 다시 보게 만드는 서비스입니다.
+        카테고리, 태그, 플랫폼 별로 원하는 자료를 빠르게 필터링하고 검색할 수 있습니다.
+        효율적인 정보 관리로 필요한 순간에 원하는 북마크를 바로 찾아드립니다.</p>
         <div class="tech-stack">
           <span class="tech">React</span>
           <span class="tech">TypeScript</span>
-          <span class="tech">Styled Components</span>
+          <span class="tech">Tailwind CSS</span>
         </div>
-        <a href="#" class="btn">자세히 보기</a>
+        <a
+          href="https://github.com/ryanlee911/BOOKMARK"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="btn"
+        >
+          자세히 보기
+        </a>
       </div>
+
       <div class="project-card">
-        <h2>프로젝트 3</h2>
-        <p>프로젝트 설명이 들어갑니다. 이 프로젝트는 Node.js를 사용하여 개발되었습니다.</p>
+        <h2>To be continued..</h2>
+        <p></p>
         <div class="tech-stack">
-          <span class="tech">Node.js</span>
-          <span class="tech">Express</span>
-          <span class="tech">MongoDB</span>
+          <span class="tech"></span>
+          <span class="tech"></span>
+          <span class="tech"></span>
         </div>
         <a href="#" class="btn">자세히 보기</a>
       </div>

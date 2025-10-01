@@ -2,9 +2,8 @@
   <header class="header">
     <div class="logo">Portfolio</div>
     <nav class="nav">
-      <router-link to="/" class="nav-item">소개</router-link>
+      <router-link to="/aboutme" class="nav-item">소개</router-link>
       <router-link to="/projects" class="nav-item">프로젝트</router-link>
-      <router-link to="/blog" class="nav-item">블로그</router-link>
       <router-link to="/contact" class="nav-item">연락하기</router-link>
     </nav>
   </header>

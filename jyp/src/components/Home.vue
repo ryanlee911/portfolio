@@ -35,11 +35,11 @@
       <div class="skills-grid">
         <div class="skill-item">
           <h3>Frontend</h3>
-          <p>Vue.js, React, HTML5, CSS3, JavaScript</p>
+          <p>React, Vue.js, HTML5, CSS3, JavaScript</p>
         </div>
         <div class="skill-item">
           <h3>Backend</h3>
-          <p>Node.js, Python</p>
+          <p>Python</p>
         </div>
         <div class="skill-item">
           <h3>Database</h3>
