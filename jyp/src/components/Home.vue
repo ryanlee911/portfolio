@@ -190,7 +190,7 @@ export default {
   width: 60%;
   height: 500px;
   transition: all 0.5s ease;
-  border-radius: 10px;
+  border-radius: 50px;
   overflow: hidden;
   box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }

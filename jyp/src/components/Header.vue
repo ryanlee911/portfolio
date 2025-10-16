@@ -26,18 +26,19 @@ export default {
 }
 
 .logo {
-  font-size: 2.5rem;
+  font-size: 3rem;
   font-weight: bold;
 }
 
 .nav {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .nav-item {
   color: white;
   text-decoration: none;
+  font-size: 1.5rem;
   font-weight: 600;
   transition: color 0.3s;
 }

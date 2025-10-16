@@ -1,35 +1,38 @@
 <template>
-  <div class="about">
-    <section class="intro">
-      <h1>안녕하세요, 이정윤입니다</h1>
-      <p>
-        프론트엔드 개발자를 꿈꾸는 컴퓨터공학과 학생입니다.<br />
-        사람, 기술, 기획을 잇는 감각적인 인터페이스를 만들고자 합니다.
-      </p>
-    </section>
+  <div class="about-wrapper">
+    <div class="about">
+      <section class="intro">
+        <h1>안녕하세요, 이정윤입니다</h1>
+        <p>
+          프론트엔드 개발자를 꿈꾸는 컴퓨터공학과 학생입니다.<br />
+          사람, 기술, 기획을 잇는 감각적인 인터페이스를 만들고자 합니다.
+        </p>
+      </section>
 
-    <section class="section">
-      <h2>📌 간단 이력</h2>
-      <div class="timeline">
-        <div v-for="(item, index) in history" :key="index" class="timeline-item">
-          <div class="circle" />
-          <div class="content">
-            <span class="year">{{ item.year }}</span>
-            <h3>{{ item.title }}</h3>
-            <p>{{ item.details }}</p>
+      <section class="section">
+        <h2>📌 Timeline </h2>
+        <div class="timeline">
+          <div v-for="(item, index) in history" :key="index" class="timeline-item">
+            <div class="circle" />
+            <div class="content">
+              <span class="year">{{ item.year }}</span>
+              <h3>{{ item.title }}</h3>
+              <p>{{ item.details }}</p>
+            </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <h2>🛠 기술 스택</h2>
-      <div class="skill-list">
-        <span class="skill" v-for="(skill, index) in skills" :key="index">{{ skill }}</span>
-      </div>
-    </section>
+      <section class="section">
+        <h2>🛠 Skills</h2>
+        <div class="skill-list">
+          <span class="skill" v-for="(skill, index) in skills" :key="index">{{ skill }}</span>
+        </div>
+      </section>
+    </div>
   </div>
 </template>
+
 
 <script>
 export default {
@@ -80,7 +83,7 @@ export default {
 }
 
 .intro p {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #555;
   line-height: 1.6;
 }
@@ -93,7 +96,7 @@ export default {
 }
 
 .section h2 {
-  font-size: 1.6rem;
+  font-size: 2rem;
   font-weight: 600;
   border-left: 6px solid #42b883;
   padding-left: 12px;
@@ -128,19 +131,19 @@ export default {
 }
 
 .timeline-item .year {
-  font-size: 0.85rem;
+  font-size: 1.2rem;
   color: #999;
 }
 
 .timeline-item h3 {
-  font-size: 1.15rem;
+  font-size: 1.2rem;
   font-weight: 600;
   margin: 4px 0;
 }
 
 .timeline-item p {
   color: #555;
-  font-size: 0.95rem;
+  font-size: 1rem;
   line-height: 1.4;
 }
 
@@ -156,7 +159,7 @@ export default {
   color: #2c3e50;
   padding: 8px 14px;
   border-radius: 999px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   transition: background 0.3s ease;
 }
 
